@@ -18,9 +18,8 @@ int t_cd(char **args)
    @param args List of args.  Not examined.
    @return Always returns 1, to continue executing.
  */
-int t_help(char **args)
+int t_help()
 {
-  int i;
   _puts("Hello there, there is no manual to this madness. Have fun :)\n");
   return 1;
 }
@@ -30,7 +29,7 @@ int t_help(char **args)
    @param args List of args.  Not examined.
    @return Always returns 0, to terminate execution.
  */
-int t_exit(char **args)
+int t_exit()
 {
   return 0;
 }

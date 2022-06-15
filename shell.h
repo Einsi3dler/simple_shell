@@ -14,8 +14,8 @@
 void _puts(char *str);
 int _strlen(char *s);
 int t_cd(char **args);
-int t_help(char **args);
-int t_exit(char **args);
+int t_help();
+int t_exit();
 int lsh_num_builtins();
 int _putchar(char c);
 int launch(char **args);

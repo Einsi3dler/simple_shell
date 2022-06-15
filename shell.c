@@ -1,13 +1,9 @@
 #include "shell.h"
 
-int main(int argc, char **argv)
+int main()
 {
-  // Load config files, if any.
+	loop();
 
-  // Run command loop.
-  loop();
-
-  // Perform any shutdown/cleanup.
 
   return EXIT_SUCCESS;
 }
