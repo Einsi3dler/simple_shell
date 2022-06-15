@@ -35,7 +35,7 @@ int _splitstring(char *str)
 	int i;
 	int searchflag = 1;
 	int wordcount = 0;
-	
+
 	for (i = 0; str[i]; i++)
 	{
 		if (str[i] != ' ' && searchflag == 1)
@@ -94,9 +94,9 @@ char *_strcat(char *dest, char *src)
  */
 int _strlen(char *s)
 {
-    int i;
+	int i;
 
-    for (i = 0; s[i]; i++)
-	    ;
-    return (i);
+	for (i = 0; s[i]; i++)
+		;
+	return (i);
 }

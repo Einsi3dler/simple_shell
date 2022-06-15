@@ -8,6 +8,7 @@
 char *_getenv(const char *name)
 {
 	int i, result;
+
 	for (i = 0; environ[i]; i++)
 	{
 		result = _PATHstrcmp(name, environ[i]);
